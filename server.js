@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Define a route handler for the root path
-app.set('trust proxy', 3);
+app.set('trust proxy', 2);
 app.get('/', (req, res) => {
   res.send('Hello, world!');
 });
